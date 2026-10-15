@@ -8,7 +8,7 @@ Collaborateurs: Anne-Marie Laurendeau et Camille Jean-François (2269899)
 
 ## Objectif:
 
-Ce projet a pour objectif de fournir une calcultrice simple avec une interface pour l'utiliser
+Ce projet a pour objectif de fournir une calcultrice simple avec une interface pour l'utiliser. Les opérations possibles sont l'addition, la soustraction, la division et la multiplication. 
 
 ## Prérequis d'installation
 
@@ -29,4 +29,14 @@ Ce projet a pour objectif de fournir une calcultrice simple avec une interface p
 1) Ouvrir un terminal à la racine du projet
 2) Activer l'environnement virtuel: `.\.venv\Scripts\Activate.ps1`
 3) Lancer l'application: `python -m server.app`
-4) Ouvrir l'adresse dans le navigateur
+4) Ouvrir l'adresse `http://127.0.0.1:5000` dans le navigateur
+
+
+## Flux du projet
+- Chaque branche est reliée à un issue
+- Un issue est numéroté et la branche doit contenir le numéro du issue
+- Il existe plusieurs types de changements: `fix, test, refactor, feat,` 
+- Le nommage de la branche se fait comme suit: `type_du_changement/numero_du_issue/titre`
+- Pour Merge une branche sur la branche principale `main`, il faut faire un Pull Request (PR)
+- Une autre personne que le contributeur de la branche doit faire la révision de la demande
+- Chaque PR doit passer tous les tests avant de pouvoir la merge
