@@ -11,16 +11,16 @@ def add(a,b):
     return a + b
 
 def subtract(a,b):
-    """Permet de soustraire la première valeur de la deuxième.
+    """Permet de soustraire la deuxième valeur de la première.
 
     Entrées:
-        a: Valeur numérique soustraite.
-        b: Valeur numérique de départ.
+        a: Valeur numérique de départ.
+        b: Valeur numérique soustraite.
 
     Sortie:
-        Différence ``b - a``.
+        Différence ``a - b``.
     """
-    return b - a
+    return a - b
 
 def multiply(a,b):
     """Permet de multiplier la première valeur par la deuxième.
