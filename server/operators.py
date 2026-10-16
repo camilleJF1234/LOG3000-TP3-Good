@@ -35,13 +35,13 @@ def multiply(a,b):
     return a * b
 
 def divide(a,b):
-    """Effectue une division entière de la première valeur par la deuxième.
+    """Effectue une division de la première valeur par la deuxième.
 
     Entrées:
         a: Dividende numérique.
         b: Diviseur numérique.
 
     Sortie:
-        Quotient entier de ``a`` divisé par ``b``.
+        Quotient de ``a`` divisé par ``b``.
     """
-    return a // b
+    return a / b
