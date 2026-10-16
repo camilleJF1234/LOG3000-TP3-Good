@@ -32,7 +32,7 @@ def multiply(a,b):
     Sortie:
         Résultat de ``a`` multiplié par ``b``.
     """
-    return a ** b
+    return a * b
 
 def divide(a,b):
     """Effectue une division entière de la première valeur par la deuxième.
