@@ -31,6 +31,15 @@ Ce projet a pour objectif de fournir une calcultrice simple avec une interface p
 3) Lancer l'application: `python -m server.app`
 4) Ouvrir l'adresse `http://127.0.0.1:5000` dans le navigateur
 
+# Tests
+
+Les tests utilisent `unittest`, inclus dans la bibliothèque standard de
+Python. Depuis la racine du dépôt, avec les dépendances du projet installées,
+lancez la suite complète avec :
+
+```powershell
+python -m unittest discover -s tests -v
+```
 
 ## Flux du projet
 - Chaque branche est reliée à un issue
