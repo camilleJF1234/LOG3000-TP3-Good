@@ -4,7 +4,7 @@
 
 Équipe: 11
 
-Collaborateurs: Anne-Marie Laurendeau (2291027) et Camille Jean-François (2269899)
+Collaborateurs: Anne-Marie Laurendeau et Camille Jean-François
 
 ## Objectif:
 
