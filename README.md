@@ -12,7 +12,7 @@ Ce projet a pour objectif de fournir un site web d'une calcultrice simple. Les o
 
 ## Prérequis d'installation
 
-- Avoir Python d'installer
+- Avoir Python 3 d'installer
 - Avoir pip de Python d'installer 
 - Installer les dépendances avec `pip install -r requirements.txt`
 
