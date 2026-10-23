@@ -4,11 +4,11 @@
 
 Équipe: 11
 
-Collaborateurs: Anne-Marie Laurendeau et Camille Jean-François (2269899)
+Collaborateurs: Anne-Marie Laurendeau (2291027) et Camille Jean-François (2269899)
 
 ## Objectif:
 
-Ce projet a pour objectif de fournir une calcultrice simple avec une interface pour l'utiliser. Les opérations possibles sont l'addition, la soustraction, la division et la multiplication. 
+Ce projet a pour objectif de fournir un site web d'une calcultrice simple. Les opérations possibles sont l'addition, la soustraction, la division et la multiplication. Le but de ce dépôt git est de fournir une même base de code documenté et sans bogues pour tous les professionnels de la startup pour qu'ils puisosent exécuter l'application avec succès.
 
 ## Prérequis d'installation
 
@@ -18,7 +18,7 @@ Ce projet a pour objectif de fournir une calcultrice simple avec une interface p
 
 ## Instructions d'installation
 
-1) Créer un environnement virtuel avant d'installer les dépendances (le faire a la racine du projet)
+1) Créer un environnement virtuel avant d'installer les dépendances (le faire à la racine du projet)
    1) `python -m venv .venv`
    2) Sur windows: `.\.venv\Scripts\Activate.ps1`, Sur macOS ou linux: `source .venv/bin/activate`
 
@@ -42,10 +42,12 @@ python -m unittest discover -s tests -v
 ```
 
 ## Flux du projet
-- Chaque branche est reliée à un issue
+- La branche main est la branche principale et fonctionnelle du projet
+- Chaque nouvelle branche est reliée à un issue
 - Un issue est numéroté et la branche doit contenir le numéro du issue
 - Il existe plusieurs types de changements: `fix, test, refactor, feat,` 
 - Le nommage de la branche se fait comme suit: `type_du_changement/numero_du_issue/titre`
 - Pour Merge une branche sur la branche principale `main`, il faut faire un Pull Request (PR)
 - Une autre personne que le contributeur de la branche doit faire la révision de la demande
-- Chaque PR doit passer tous les tests avant de pouvoir la merge
+- Chaque PR doit passer tous les tests avant de pouvoir la merge sur la branche principale
+- Le correcteur de la PR doit tester en local en plus de réviser sur github. 
