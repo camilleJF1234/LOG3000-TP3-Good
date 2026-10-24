@@ -8,7 +8,7 @@ Collaborateurs: Anne-Marie Laurendeau et Camille Jean-François
 
 ## Objectif:
 
-Ce projet a pour objectif de fournir un site web d'une calcultrice simple. Les opérations possibles sont l'addition, la soustraction, la division et la multiplication. Le but de ce dépôt git est de fournir une même base de code documenté et sans bogues pour tous les professionnels de la startup pour qu'ils puisosent exécuter l'application avec succès.
+Ce projet a pour objectif de fournir un site web d'une calcultrice simple. Les opérations possibles sont l'addition, la soustraction, la division et la multiplication. Le but de ce dépôt git est de fournir une même base de code documenté et sans bogues pour tous les professionnels de la startup pour qu'ils puissent exécuter l'application avec succès.
 
 ## Prérequis d'installation
 
@@ -20,7 +20,7 @@ Ce projet a pour objectif de fournir un site web d'une calcultrice simple. Les o
 
 1) Créer un environnement virtuel avant d'installer les dépendances (le faire à la racine du projet)
    1) `python -m venv .venv`
-   2) Sur windows: `.\.venv\Scripts\Activate.ps1`, Sur macOS ou linux: `source .venv/bin/activate`
+   2) Pour activer l'environnement: Sur windows: `.\.venv\Scripts\Activate.ps1`, Sur macOS ou linux: `source .venv/bin/activate`
 
 2) Installer les dépendances du projet:
    `pip install -r requirements.txt`
@@ -42,11 +42,15 @@ python -m unittest discover -s tests -v
 ```
 
 ## Flux du projet
-- La branche main est la branche principale et fonctionnelle du projet
+- La branche `main` est la branche principale et fonctionnelle du projet
+- Aucun changements ne devraient être faits directement sur la branche `main`
 - Chaque nouvelle branche est reliée à un issue
 - Un issue est numéroté et la branche doit contenir le numéro du issue
 - Il existe plusieurs types de changements: `fix, test, refactor, feat,` 
 - Le nommage de la branche se fait comme suit: `type_du_changement/numero_du_issue/titre`
+- Les messages de commit doivent commencer par le type de changement suivi d'une courte description du changement 
+  ex: `fix: multiplication qui faisait un exposant`
+- Un message de commit doit être court, mais descripteur et en français. 
 - Pour Merge une branche sur la branche principale `main`, il faut faire un Pull Request (PR)
 - Une autre personne que le contributeur de la branche doit faire la révision de la demande
 - Chaque PR doit passer tous les tests avant de pouvoir la merge sur la branche principale

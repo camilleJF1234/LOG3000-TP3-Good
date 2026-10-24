@@ -39,13 +39,15 @@
 <script>
    const display = document.getElementById('display');
    let resultDisplayed = display.value !== '' && !Number.isNaN(Number(display.value));
+   let errorDisplayed = display.value !==  '' && Number.isNaN(Number(display.value));
 
    function appendToDisplay(value) {
-      if (resultDisplayed && /^\d$/.test(value)) {
+      if ((resultDisplayed && /^\d$/.test(value)) || (errorDisplayed && /^\d$/.test(value))) {
          display.value = '';
       }
       display.value += value;
       resultDisplayed = false;
+      errorDisplayed = false;
    }
 
    function clearDisplay() {
